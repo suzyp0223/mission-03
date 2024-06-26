@@ -88,12 +88,11 @@ section:last-child .section-box::before {
   content: '';
   position: absolute;
   top: 0;
-  
   width: 100%;
-  height: 634px;
+  height: 100%;
   border-top: 1px solid var(--color-green-700);
   border-bottom: 1px solid var(--color-green-700);
-  
+
 
 }
 
@@ -174,6 +173,15 @@ section:last-child .link-box h4 {
   line-height: 115%;
 }
 
+
+
+
+
+
+
+
+
+/* a링크 영역으로 li태그 width height주기전 코드  0626*/
 .keyword-box ul {
   width: 134px;
   height: 256px;
@@ -183,30 +191,14 @@ section:last-child .link-box h4 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  text-align: center;
-}
-section:first-child .keyword-box li:nth-of-type(1),
-section:first-child .keyword-box li:nth-of-type(2) {
-  width: 89px;
-  height: 30px;
-}
-section:first-child .keyword-box li:nth-of-type(3),
-section:first-child .keyword-box li:nth-of-type(4),
-section:first-child .keyword-box li:nth-of-type(5) {
-  width: 110px;
-  height: 30px;
-}
-section:first-child .keyword-box li:nth-of-type(6) {
-  width: 133px;
-  height: 30px;
 }
 
 section:first-child .keyword-box li {
   /* width: inherit; */
-  /* display: inline-flex; */
-  /* padding: 6px 10px; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: inline-flex;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 
   border: 1px solid var(--color-gray-400);
@@ -220,17 +212,18 @@ section:first-child .keyword-box li {
   
 }
 
-.keyword-box  a {
-  display: block;
-  padding: 7px 9px;
+.keyword-box li>a {
   
+  /* display: inline-block;
+  padding: 0;
+  flex-shrink: 0; */
 }
 
 section:last-child .keyword-box li {
-  /* display: inline-flex; */
-  /* padding: 6px 10px; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: inline-flex;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 
   border: 1px solid var(--color-gray-400);
@@ -241,22 +234,6 @@ section:last-child .keyword-box li {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-}
-section:last-child .keyword-box li:nth-of-type(1) {
-  width: 89px;
-  height: 30px;
-}
-section:last-child .keyword-box li:nth-of-type(2) {
-  width: 120px;
-  height: 30px;
-}
-
-section:last-child .keyword-box li:nth-of-type(3),
-section:last-child .keyword-box li:nth-of-type(4),
-section:last-child .keyword-box li:nth-of-type(5),
-section:last-child .keyword-box li:nth-of-type(6) {
-  width: 80px;
-  height: 30px;
 }
 
 .keyword-box li:not(:last-child) {
