@@ -1,5 +1,4 @@
 /* 카테고리별 추천 광고상품 */
-
 body {
   width: 100%;
   padding: 0;
@@ -7,7 +6,6 @@ body {
 }
 
 .container {
-
   margin: 100px 130px 420px 130px;
   width: 1055px;
   height: 1376px;
@@ -30,7 +28,6 @@ body {
 .title-box {
   height: 46px;
   margin-bottom: 24px;
-
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -88,18 +85,15 @@ section:last-child .section-box::before {
   content: '';
   position: absolute;
   top: 0;
-  
   width: 100%;
   height: 634px;
   border-top: 1px solid var(--color-green-700);
   border-bottom: 1px solid var(--color-green-700);
-  
 
 }
 
 
 .atricle-wrap:first-child {
-
   position: relative;
   width: 1022px;
   height: 634px;
@@ -156,7 +150,7 @@ section:last-child .link-box h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../../assets/icon/angle-right-default.svg) no-repeat center right;
+  background: url(/assets/icon/angle-right-default.svg) no-repeat center right;
 }
 
 .keyword-box {
@@ -185,30 +179,26 @@ section:last-child .link-box h4 {
   align-items: flex-start;
   text-align: center;
 }
+
 section:first-child .keyword-box li:nth-of-type(1),
 section:first-child .keyword-box li:nth-of-type(2) {
   width: 89px;
   height: 30px;
 }
+
 section:first-child .keyword-box li:nth-of-type(3),
 section:first-child .keyword-box li:nth-of-type(4),
 section:first-child .keyword-box li:nth-of-type(5) {
   width: 110px;
   height: 30px;
 }
+
 section:first-child .keyword-box li:nth-of-type(6) {
   width: 133px;
   height: 30px;
 }
 
 section:first-child .keyword-box li {
-  /* width: inherit; */
-  /* display: inline-flex; */
-  /* padding: 6px 10px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  gap: 5px;
-
   border: 1px solid var(--color-gray-400);
   background: var(--color-white);
   color: var(--color-brown-300);
@@ -217,22 +207,14 @@ section:first-child .keyword-box li {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  
 }
 
-.keyword-box  a {
+.keyword-box a {
   display: block;
   padding: 7px 9px;
-  
 }
 
 section:last-child .keyword-box li {
-  /* display: inline-flex; */
-  /* padding: 6px 10px; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  gap: 5px;
-
   border: 1px solid var(--color-gray-400);
   background: var(--color-white);
   color: var(--color-green-700);
@@ -242,10 +224,12 @@ section:last-child .keyword-box li {
   font-weight: 400;
   line-height: 120%;
 }
+
 section:last-child .keyword-box li:nth-of-type(1) {
   width: 89px;
   height: 30px;
 }
+
 section:last-child .keyword-box li:nth-of-type(2) {
   width: 120px;
   height: 30px;
@@ -262,11 +246,6 @@ section:last-child .keyword-box li:nth-of-type(6) {
 .keyword-box li:not(:last-child) {
   margin-bottom: 12px;
 }
-
-
-
-
-
 
 
 /* 캐러셀박스 */
